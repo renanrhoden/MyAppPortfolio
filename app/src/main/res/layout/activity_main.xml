@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.renanrhoden.myappportfolio.MainActivity"
+    android:background="#2d9250">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:text="@string/app_title"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="@dimen/buttons_dimen"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/firstAppButonID"
+        android:text="@string/popular_movies"
+        android:background="@color/background_buttons" />
+
+    <Button
+        android:text="@string/stock_hawk"
+        android:layout_width="@dimen/buttons_dimen"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondAppButonID"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/firstAppButonID"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background_buttons"/>
+
+    <Button
+        android:text="@string/build_it_bigger"
+        android:layout_width="@dimen/buttons_dimen"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdAppButonID"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/secondAppButonID"
+        android:layout_alignRight="@+id/secondAppButonID"
+        android:layout_alignEnd="@+id/secondAppButonID"
+        android:background="@color/background_buttons"/>
+
+    <Button
+        android:text="@string/app_material"
+        android:layout_width="@dimen/buttons_dimen"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/fourthAppButonID"
+        android:layout_below="@+id/thirdAppButonID"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background_buttons" />
+
+    <Button
+        android:text="@string/go_ubiquitous"
+        android:layout_width="@dimen/buttons_dimen"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/fifthAppButonID"
+        android:layout_below="@+id/fourthAppButonID"
+        android:layout_alignRight="@+id/thirdAppButonID"
+        android:layout_alignEnd="@+id/thirdAppButonID"
+        android:background="@color/background_buttons" />
+
+    <Button
+        android:text="@string/capstone"
+        android:layout_width="@dimen/buttons_dimen"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/sixthAppButonID"
+        android:layout_below="@+id/fifthAppButonID"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background_buttons"/>
+</RelativeLayout>
